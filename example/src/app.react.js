@@ -6,11 +6,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      users: [
-        { name: 'Whien', age: 18 },
-        { name: 'Bran', age: 20 },
-        { name: 'Dogge', age: 25 }
-      ]
+      users: null
     };
   }
   render() {
