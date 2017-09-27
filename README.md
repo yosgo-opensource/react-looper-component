@@ -67,3 +67,7 @@ const items = {
 ## render props
 
 The react-looper-component does not care about render component, just loop the data and return to render props, it can help us to control child component flexible.
+
+## License
+
+MIT
