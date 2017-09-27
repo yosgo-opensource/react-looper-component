@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/yosgo-opensource/react-looper-component.git"
   },
-  "files": ["lib", "README.md"],
+  "files": ["lib", "README.md", "react-looper-component.d.ts"],
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
