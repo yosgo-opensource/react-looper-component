@@ -16,20 +16,16 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Looper
-          items={this.state.users}
-          render={({ name, age }, index) => (
+        <Looper items={this.state.users}>
+          {({ name, age }, index) => (
             <div key={`index-${name}-${age}`}>
               name: {name} age: {age}
             </div>
           )}
-        />
-        <Looper
-          items={this.state.foods}
-          render={({ name }, index) => (
-            <div key={`index-${name}`}>name: {name}</div>
-          )}
-        />
+        </Looper>
+        <Looper items={this.state.foods}>
+          {({ name }, index) => <div key={`index-${name}`}>name: {name}</div>}
+        </Looper>
       </div>
     );
   }
