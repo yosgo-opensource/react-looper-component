@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Looper from '../../lib/Looper-Component.react';
+import Looper from 'react-looper-component';
 
 class App extends Component {
   constructor() {

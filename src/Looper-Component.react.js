@@ -4,24 +4,24 @@ import PropTypes from 'prop-types';
 const isFiber = React.version.indexOf('16') > -1;
 const isObject = items => typeof items === 'object';
 
-const LooperComponent = ({ items, children }) => {
+const LooperComponent = ({ items, children: wrapperChildren }) => {
   if (items === null || children === null) return null;
 
-  let child;
+  let children;
 
   if (items.length) {
-    child = items.map((item, index) => children(item, index));
+    children = items.map((item, index) => wrapperChildren(item, index));
   }
 
   if (isObject(items)) {
     const keys = Object.keys(items);
-    child = keys.map((key, index) => children(items[key], index));
+    children = keys.map((key, index) => wrapperChildren(items[key], index));
   }
 
   if (isFiber) {
-    return child;
+    return children;
   } else {
-    return <span>{child}</span>;
+    return <span>{children}</span>;
   }
 };
 
