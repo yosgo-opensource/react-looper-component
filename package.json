@@ -1,6 +1,6 @@
 {
   "name": "react-looper-component",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "build": "babel ./src --out-dir ./lib"
   },
@@ -9,6 +9,10 @@
   "peerDependencies": {
     "react": "^15.0.0 || ^16.0.0",
     "react-dom": "^15.0.0 || ^16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosgo-opensource/react-looper-component.git"
   },
   "files": ["lib", "README.md"],
   "devDependencies": {
