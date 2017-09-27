@@ -6,9 +6,9 @@
   },
   "main": "index.js",
   "license": "MIT",
-  "dependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0"
   },
   "files": ["lib", "README.md"],
   "devDependencies": {
