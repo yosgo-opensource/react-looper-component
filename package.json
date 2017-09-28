@@ -1,6 +1,6 @@
 {
   "name": "react-looper-component",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "scripts": {
     "build": "babel ./src --out-dir ./lib",
     "test": "jest"
