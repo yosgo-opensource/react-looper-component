@@ -2,27 +2,36 @@
   "name": "react-looper-component",
   "version": "0.0.5",
   "scripts": {
-    "build": "babel ./src --out-dir ./lib"
+    "build": "babel ./src --out-dir ./lib",
+    "test": "jest"
   },
   "main": "./lib/index.js",
   "license": "MIT",
-  "peerDependencies": {
-    "react-dom": "^15.0.0 || ^16.0.0"
-  },
+  "peerDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yosgo-opensource/react-looper-component.git"
   },
-  "files": ["lib", "README.md", "react-looper-component.d.ts"],
+  "files": [
+    "lib",
+    "README.md",
+    "react-looper-component.d.ts"
+  ],
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
+    "core-js": "^2.5.1",
+    "enzyme": "^3.0.0",
+    "enzyme-adapter-react-16": "^1.0.0",
+    "jest": "^21.2.1",
+    "react-dom": "^16.0.0",
+    "react-test-renderer": "^16.0.0",
     "webpack": "^3.6.0"
   },
   "dependencies": {
-    "react": "^15.0.0 || ^16.0.0",
-    "prop-types": "^15.6.0"
+    "prop-types": "^15.6.0",
+    "react": "^15.0.0 || ^16.0.0"
   }
 }
