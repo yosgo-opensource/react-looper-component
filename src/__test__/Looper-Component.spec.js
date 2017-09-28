@@ -7,6 +7,13 @@ import Adapter from 'enzyme-adapter-react-16';
 Enzyme.configure({ adapter: new Adapter() });
 
 describe('<LooperComponent />', () => {
+  it('return null when items props is null', () => {
+    const wrapper = mount(
+      <ReactLooperComponent items={null}>{() => null}</ReactLooperComponent>
+    );
+    console.log(wrapper);
+  });
+
   it('wrapper <ReactLooperComponent />', () => {
     const wrapper = mount(
       <ReactLooperComponent items={[]}>{() => null}</ReactLooperComponent>
