@@ -1,6 +1,17 @@
-# React Looper Component
+<h3 align="center">
+  React Looper Component
+</h3>
 
-Flexible to mapping your data for component 👷👷👷👷👷
+<p align="center">
+  <a href="https://www.npmjs.com/package/react-looper-component"><img src="https://img.shields.io/npm/v/react-looper-component.svg?style=flat-square"></a> 
+  <a href="https://travis-ci.org/yosgo-opensource/react-looper-component"><img src="https://api.travis-ci.org/yosgo-opensource/react-looper-component.svg"></a>
+  <a href="https://github.com/yosgo-opensource/react-looper-component/"><img src="https://codecov.io/gh/yosgo-opensource/react-looper-component/branch/master/graph/badge.svg"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+</p>
+
+<p align="center">
+  Flexible to mapping your data for component 👷👷👷👷👷
+</p>
 
 ## Installation
 
