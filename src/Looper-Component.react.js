@@ -18,11 +18,7 @@ const LooperComponent = ({ items, children: wrapperChildren }) => {
     children = keys.map((key, index) => wrapperChildren(items[key], index));
   }
 
-  if (isFiber) {
-    return children;
-  } else {
-    return <span>{children}</span>;
-  }
+  return isFiber ? children : <span>{children}</span>;
 };
 
 LooperComponent.propTypes = {
